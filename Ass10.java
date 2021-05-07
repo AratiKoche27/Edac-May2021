@@ -1,0 +1,23 @@
+/*
+10. Write a Java program to compute a specified formula. 
+Specified Formula :
+4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))
+Expected Output
+2.9760461760461765
+*/
+class Ass10
+{
+	public static void main(String args[])
+	{
+		double a=(1.0/3);
+		double b=(1.0/5);
+		double c=(1.0/7);
+		double d=(1.0/9);
+		double e=(1.0/11);
+		double result=4.0*(1-a+b-c+d-e);
+		
+		
+		System.out.println("Result:"+result);
+        
+	}
+}
